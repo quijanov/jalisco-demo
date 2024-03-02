@@ -1,0 +1,32 @@
+font {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#222;
+}
+
+.contents {
+	display: flex;
+	-display: webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:320px;
+	justify-content: center;
+}
+/*
+.content_text {
+	font-weight:bold;
+	font-size:5em;
+	color:#fff;	
+}
+*/
+.box {
+    height: 5em;
+    width: 5em;
+    padding: 1em;
+    border: .25em solid;
+    box-sizing: border-box;
+    color:#fff;
+}
